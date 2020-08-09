@@ -60,12 +60,18 @@
     "webpack": "4.42.0",
     "webpack-dev-server": "3.10.3",
     "webpack-manifest-plugin": "2.2.0",
-    "workbox-webpack-plugin": "4.3.1"
+    "workbox-webpack-plugin": "4.3.1",
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "json-server": "^0.15.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "fake-json": "json-server ./src/assets/db.json --watch --port 3001"
   },
   "eslintConfig": {
     "extends": "react-app"
